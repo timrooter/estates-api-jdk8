@@ -3,7 +3,7 @@
 spring:
   application:
     name: estates-api
-    actual-api-domain: https://estates-api-c8d64e456ec9.herokuapp.com
+    actual-api-domain: https://estates-api-5b006150c849.herokuapp.com
     actual-ui-domain: http://172.20.10.3:3000
 
   jpa:
