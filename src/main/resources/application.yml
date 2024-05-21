@@ -61,8 +61,7 @@ app:
   oauth2:
     redirectUri: ${spring.application.actual-ui-domain}/oauth2/redirect
   cors:
-    allowed-origins: ${spring.application.actual-ui-domain}, http://localhost:8080, http://localhost:3000, http://172.20.10.3:3000, https://dixon-10ibe8cu6-timurinamkhojayevs-projects.vercel.app, dixon-git-main-timurinamkhojayevs-projects.vercel.app, https://dixon-tawny.vercel.app
-
+    allowed-origins: ${spring.application.actual-ui-domain}, http://localhost:8080, http://localhost:3000, http://172.20.10.3:3000, https://dixon-estates.vercel.app, https://dixon-estates-timurinamkhojayevs-projects.vercel.app, https://dixon-estates-git-main-timurinamkhojayevs-projects.vercel.app
 logging:
   level:
     org.springframework.security: DEBUG
