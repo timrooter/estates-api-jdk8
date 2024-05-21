@@ -60,8 +60,8 @@ app:
       minutes: 10
   oauth2:
     redirectUri: ${spring.application.actual-ui-domain}/oauth2/redirect
-  cors:
-    allowed-origins: ${spring.application.actual-ui-domain}, http://localhost:8080, http://localhost:3000
+#  cors:
+#    allowed-origins: ${spring.application.actual-ui-domain}, http://localhost:8080, http://localhost:3000
 
 logging:
   level:
