@@ -17,8 +17,6 @@ spring:
     url: jdbc:postgresql://rain.db.elephantsql.com:5432/bhoyqvin
     username: bhoyqvin
     password: 341M2nN6zwho7QJZUU4ZDcqUuYvSM5Cr
-
-
   security:
     mixed-content:
       mode: NEVER
